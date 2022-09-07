@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-family: sans-serif;
+}
+
+header {
+    background-color: aqua;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+}
+
+main{
+    background-color: #f4f4f4;
+    margin: 10vh 20vw auto;
+    height: 100%;
+    padding: 4rem;
+
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+th {
+    font-size: bold;
+    border: 2px solid black;
+}
